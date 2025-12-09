@@ -28,8 +28,142 @@ Execute the program using runserver command.
 
 ## PROGRAM
 
+'''<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+  <title>Slot Time Table</title>
+  <style>
+    body {
+      font-family: "Times New Roman";
+      background-color: #f9f9f9;
+      text-align: center;
+      margin: 20px;
+    }
 
+    h2 {
+      color: #101011ff;
+    }
+    table {
+      border-collapse: collapse;
+      margin: 25px auto;
+      width: 85%;
+      background: white;
+      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+    }
+
+    th, td {
+      border: 1px solid #555;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #c9fc8bff;
+      color: black;
+    }
+
+    td {
+      font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f7faf0ff;
+    }
+
+    tr:hover {
+      background-color: #88f5a3ff;
+    }
+
+    .sub-table {
+      width: 60%;
+      margin-top: 30px;
+    }
+
+    .sub-table th {
+      background-color: #0c0c0cff;
+      color: white;
+    }
+
+    p {
+      margin-top: 20px;
+      color: #0bff1bff;
+    }
+  </style>
+</head>
+<body>
+  <img src={% static 'logo.png' %}>
+
+  <h2>SLOT TIME TABLE - NITHILA R J (25010789)</h2>
+
+
+  <table>
+    <tr>
+      <th>Day/Time</th>
+      <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Wednesday</th>
+      <th>Thursday</th>
+      <th>Friday</th>
+      <th>Saturday</th>
+    </tr>
+    <tr>
+      <td>8-10</td>
+      <td>PYTHON</td>
+      <td>FREE</td>
+      <td>WEB</td>
+      <td colspan="3">FREE</td>
+    </tr>
+    <tr>
+      <td>10-12</td>
+      <td>PYTHON</td>
+      <td>WEB</td>
+      <td colspan="2">F R E E</td>
+      <td>Python</td>
+      <td>FREE</td>
+    </tr>
+    <tr>
+      <td>12-1</td>
+      <td colspan="6">L U N C H</td>
+    </tr>
+    <tr>
+      <td>1-3</td>
+      <td>FREE</td>
+      <td>Python</td>
+      <td>MENTOR</td>
+      <td>FREE</td>
+      <td>Python</td>
+      <td>FREE</td>
+    </tr>
+    <tr>
+      <td>3-5</td>
+      <td colspan="3">WEB</td>
+      <td colspan="3">FREE</td>
+    </tr>
+  </table>
+
+  <table class="sub-table">
+    <tr>
+      <th>Subject Code</th>
+      <th>Subject Name</th>
+    </tr>
+    <tr>
+      <td>19AI414</td>
+      <td>Fundamentals of Web Application Development (FWAD)</td>
+    </tr>
+    <tr>
+      <td>19AI301</td>
+      <td>Python Programming</td>
+    </tr>
+  </table>
+
+  <p>Prepared by: NITHILA R J  </p>
+
+</body>
+</html>'''
 ## OUTPUT
+![Uploading WhatsApp Image 2025-12-08 at 11.57.46 AM.jpeg…]()
 
 
 ## RESULT

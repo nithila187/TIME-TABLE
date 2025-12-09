@@ -163,7 +163,7 @@ Execute the program using runserver command.
 </body>
 </html>'''
 ## OUTPUT
-![Uploading WhatsApp Image 2025-12-08 at 11.57.46 AM.jpeg…]()
+![WhatsApp Image 2025-12-08 at 11 57 46 AM](https://github.com/user-attachments/assets/d5fe8334-6db2-44bb-8a49-317f4d638654)
 
 
 ## RESULT
